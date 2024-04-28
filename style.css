@@ -1,5 +1,5 @@
 body {
-  background-color: yellow;
+  background-color: #FFC436;
 }
 img{
   height: 300px;  
@@ -29,16 +29,22 @@ p:hover{
   transition: 2s ease-in;
   color:black;
   background-color: white;
+   font-size: 20px;
+  font-family: cursive;
 }
 
 p {
  background-color: white;
   color: black;
+  padding: 15px;
   border: 5px solid black;
+  font-size: 20px;
+  font-family: cursive;
 } 
 .ll{
 background-color: black;
   color: black;
+  padding: 15px;
  border: 5px solid black; 
 }
 
@@ -52,6 +58,9 @@ background-color: black;
   box-shadow: -12px -10px 10px 1px black ;
   padding: 0px ;
   border: 8px double blue;
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 .hg{
@@ -63,6 +72,9 @@ transform: scale(0.7) ;
   box-shadow: -12px -10px 10px 1px black ;
   padding: 0px ;
   border: 8px double blue;
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 .gg {
@@ -75,6 +87,9 @@ transform: scale(0.7) ;
   box-shadow: -12px -10px 10px 1px black ;
   padding: 0px ;
   border: 8px double blue;
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 h1{
@@ -89,7 +104,10 @@ background-color: white;
 
 h1{
  text-align: center;
-  font-size: 60px; 
+  font-size: 60px;
+  background-image: linear-gradient(red, green);
+  width: 50%;
+  margin:auto;
 }
 
 .rr{
@@ -98,3 +116,23 @@ h1{
  border: 5px solid black;
 }
 
+.rre{
+   transition: 2s ease-in;
+  color:black;
+  background-color: black;
+  
+}
+
+.tt{
+   transition: 2s ease-in;
+  color:#FFCAD4;
+  background-color: blue;
+
+}
+
+.yy{
+   transition: 2s ease-in;
+  color:#FFCAD4;
+  background-color: yellow;
+  
+}
